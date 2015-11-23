@@ -1,0 +1,10 @@
+Sometimes a log message will span into multiple line.
+
+When setup a Sumo filter to include/exclude, you need to match the whole line.  The matching pattern
+need to consider the line feeds.
+
+I do this..
+
+blah blah [\S\s]*
+
+that's is saying either a space or a non space for zero or more counts.
